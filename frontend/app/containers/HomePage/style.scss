@@ -1,0 +1,29 @@
+.todo {
+  .body {
+    max-width: 1100px;
+    padding: 1rem 2rem;
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 2rem;
+
+    .add-btn {
+      top: -10px;
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+
+      button {
+        background-color: #3f51b5;
+        background-image: linear-gradient(19deg, #3f51b5 0%, #b721ff 100%);
+      }
+    }
+
+    .todo-table {
+      padding: 1rem;
+      width: 100%;
+      background: white;
+      padding-top: 3rem;
+    }
+  }
+}
